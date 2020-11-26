@@ -1,12 +1,13 @@
 cmake_minimum_required( VERSION 2.8 )
 PROJECT(mscnav)
 
-set(Ceres_DIR /opt/lib/cmake/Ceres)
+#set(Ceres_DIR /opt/lib/cmake/Ceres)
 # set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH}")
 
-find_package(glog REQUIRED)
-find_package(gflags REQUIRED)
+#find_package(glog REQUIRED)
+#find_package(gflags REQUIRED)
 find_package(Eigen3 REQUIRED)
+set(OpenCV_DIR /home/sean/workspace/project/multi-nav/opencv-3.4.12/build)
 find_package(OpenCV REQUIRED)
 find_package(Ceres REQUIRED)
 
